@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --color-one: black;
+    --color-two: #fafafa;
+    --color-text: black;
+    
+    --font: "Inria Sans", sans-serif;
+}
+
+body{
+    font-family: var(--font);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container1{
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* Header */
+.header{   
+    box-shadow: 0 1px 3px 0 #f0f0f0;
+}
+
+.header-top{
+    background-color: #ebebeb;
+    padding: 8px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.header-main .logo img{
+    height: 14px;
+    width: auto;
+    margin-left: 50px;
+}
+
+.header-main .menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-main .menu ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-main .menu ul li a{
+    color: var(--color-one);
+    font-size: 17px;
+}
+
+.header-main .sign-in ul{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-main .sign-in ul li a{
+    color: var(--color-one);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.header-main .sign-in i{
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.header-main .sign-in button{
+  padding: 20px 10px;
+  background-color: black;
+  color: white;
+}
+
+/* End Header */
+
+/* BODY  */
+.order-success {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.success-icon {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.circle {
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-bottom: 10px;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    /* color: green; */
+}
+
+.order-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.info-section, .order-details {
+    width: 48%;
+    text-align: left;
+}
+
+.info-section h3, .order-details h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.delivery-method {
+    color: red;
+}
+
+.order-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-details ul li {
+    padding: 5px 0;
+}
+
+.cost-summary {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.total {
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+}
+
+.payment-method {
+    font-style: italic;
+}
+
+.order-details button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.order-details button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+/* END BODY */
